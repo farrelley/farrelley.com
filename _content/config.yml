@@ -1,0 +1,8 @@
+site:
+    title: 'My New Website'
+    description: 'A website recently generated with PieCrust.'
+    author: Shaun Farrell
+    pretty_urls: true
+    posts_fs: hierarchy
+smartypants:
+    enable: true
