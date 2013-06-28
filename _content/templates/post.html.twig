@@ -1,0 +1,24 @@
+{% extends '_template.html.twig' %}
+
+{% block breadcrumbs %}
+    <div class="row-fluid">
+        <div class="span12 centered">
+            <ul class="breadcrumb">
+                <li><a href="{{pcurl('/')}}">Home</a> <span class="divider">/</span></li>
+                <li><a href="{{pcurl('blog')}}">Blog</a> <span class="divider">/</span></li>
+                <li class="active">{{page.title}}</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h2>{{page.title}}</h2>
+        <p class="lead">{{page.lead}}</p>
+    </div>
+    
+    {{ content|raw }}
+    
+    {{google.comments(page.url)}}
+{% endblock %}

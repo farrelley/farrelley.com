@@ -1,8 +1,17 @@
 site:
-    title: 'My New Website'
-    description: 'A website recently generated with PieCrust.'
+    title: 'Shaun Farrell - farrelley.com'
+    description: 'There is nothing really that can explain this site.'
     author: Shaun Farrell
     pretty_urls: true
     posts_fs: hierarchy
+    posts_per_page: 5
 smartypants:
     enable: true
+social_media:
+    twitter: https://twitter.com/farrelley
+    googleplus: https://plus.google.com/u/2/111181233937565878058/
+    skype: farrelley
+    github: https://github.com/farrelley
+    irc: farrelley
+    email: farrelley@gmail.com
+    linkedin: http://www.linkedin.com/in/farrelley
