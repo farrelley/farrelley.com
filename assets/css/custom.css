@@ -36,7 +36,7 @@ p {
 }
 code { background: #fee; padding: 0 0.3em; }
 ul li {margin-bottom:10px; line-height: 1.5em;}
-ul { margin: 1.5em 0; }
+ul { margin: 1.5em; }
 .container-narrow {
     margin: 0 auto;
     max-width: 700px;
