@@ -1,0 +1,166 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>API&#039;s in the Federal Government &ndash; Shaun Farrell - farrelley.com</title>
+    
+    <!-- META --> 
+            <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="There is nothing really that can explain this site.">
+        <meta name="author" content="Shaun Farrell">
+        <meta name="template-engine" content="Twig" />
+        <meta name="robots" content="all">
+        <meta name="robots" content="index, follow">
+    
+    <!-- CSS -->
+            <link href="http://farrelley.com/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="http://farrelley.com/assets/css/custom.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+        <link href="http://farrelley.com/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://farrelley.com/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="http://farrelley.com/assets/ico/favicon.png">
+
+    <link rel="alternate" type="application/rss+xml" href="http://farrelley.com/feed" />
+  </head>
+
+  <body>
+<div class="container-narrow">
+    <div class="masthead">
+        <h3 class="muted orange">farrelley.com</h3>
+    </div>
+    
+        <div class="row-fluid">
+        <div class="span12 centered">
+            <ul class="breadcrumb">
+                <li><a href="/">Home</a> <span class="divider">/</span></li>
+                <li><a href="http://farrelley.com/blog">Blog</a> <span class="divider">/</span></li>
+                <li class="active">API&#039;s in the Federal Government</li>
+            </ul>
+        </div>
+    </div>
+    
+        <div class="jumbotron">
+        <h2>API&#039;s in the Federal Government</h2>
+        <p class="lead">Open Data, Transparency, Public Trust, and Efficiency</p>
+    </div>
+    
+    <p>Just after the 2009 Presidential Inauguration, President Obama said,</p>
+
+<blockquote>
+  <p>My Administration is committed to creating an unprecedented level of openness in Government.  We will work together to ensure the public trust and establish a system of transparency, public participation, and collaboration. Openness will strengthen our democracy and promote efficiency and effectiveness in Government.
+  &#8212; <cite><a href="http://www.whitehouse.gov/the_press_office/TransparencyandOpenGovernment">Barack Obama</a></cite></p>
+</blockquote>
+
+<!-- more --> 
+
+<p>Since then a lot has happened in the Federal Government pertaining to open data specifically with Application Programming Interfaces or API&#8217;s. It all really started with data.gov. A site that was created to by the Executive branch to give access to high value datasets in a machine readable format.  Most of these datasets where published large XML, CSV, and ZIP files. In fact this is still the case and you can find over 75,000 datasets available to you today. <em>Note: Some XML file formats on data.gov are in fact a web service. These links will redirect to the agencies web service page. Example: <a href="http://catalog.data.gov/dataset/airport-status-web-service">http://catalog.data.gov/dataset/airport-status-web-service</a>.</em> But since the creation of data.gov in May 2009 a lot has happened.  In fact most of this has happened in last year or so. More and more agencies are moving away from the bulk data publishing method and moving to a more advanced realtime format method of using API&#8217;s.  This really has been ruled by <a href="http://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf">President Obama&#8217;s Open Data Policy Directive</a> issued on May 9, 2013. This directive says, </p>
+
+<blockquote>
+  <p>“going forward, newly generated  government data shall be made freely available in open, machine-readable formats, while  appropriately safeguarding privacy, confidentiality, and security.&#8221; 
+  &#8212; <cite><a href="http://www.forbes.com/sites/reuvencohen/2013/05/09/obama-signs-open-data-executive-order-all-u-s-government-data-to-be-made-freely-available/">forbes.com</a></cite></p>
+</blockquote>
+
+<p>This is really good news for everyone.  Researchers, developers, and the public will be able to use this data for whatever they wish. With this executive order many more datasets will be coming online in the years to come.</p>
+
+<p>So with this said lets checkout some of the API&#8217;s that the government has available for use, and how to find new ones. </p>
+
+<h2>Let&#8217;s first start with discovering new API&#8217;s.</h2>
+
+<p>There are a couple of places to look when looking for Government API&#8217;s. Many of these standards are used though out the Government websites.</p>
+
+<ul>
+<li>When you are on a Government website try appending /developer or /developers to the URL.</li>
+<li>Additionally you can try a subdomain by removing the &#8220;www.&#8221; and trying &#8220;developer.&#8221; or &#8220;developers.</li>
+<li>Lastly you can check the <a href="https://github.com/GSA/">General Services Administration GitHub page</a>. Here they have a bunch of Git repositories that you might be interested in. However, there is one that lists all know Government API&#8217;s.  The repository is called <a href="https://github.com/GSA/slash-developer-pages">slash-developer-pages</a>. In this repository there are many file formats that list all government /developer pages.  If you navigate to any of these pages you will see information on that specific agencies open data initiative. </li>
+</ul>
+
+<h2>API&#8217;s you may be interested in.</h2>
+
+<ul>
+<li>Federal Aviation Administration - <a href="http://services.faa.gov/docs/services/airport/">Airport Information</a></li>
+<li>Department of Homeland Security - <a href="http://www.dhs.gov/mytsa-api-documentation">TSA Checkpoint Wait Times</a></li>
+<li>Federal Register - <a href="https://www.federalregister.gov/learn/developers">Daily Journal of the Federal Government</a></li>
+<li>National Library of Medicine - <a href="http://pillbox.nlm.nih.gov/API-documentation.html">Pillbox</a></li>
+</ul>
+
+<p>As you can see there are a vast variety of datasets. These are just a couple of examples that you may find interesting. More are coming online every month and it&#8217;s exciting to this come together.</p>
+
+<h2>Reference Links</h2>
+
+<p>With that said, here are a list of links for your further exploring of API&#8217;s in the Government.</p>
+
+<ul>
+<li><a href="http://apievangelist.com/," title="What is an API">What is an API?</a></li>
+<li><a href="http://www.howto.gov/mobile/apis-in-government" title="APIs in Government - HowTo.gov">APIs in Government</a></li>
+<li><a href="http://catalog.data.gov/" title="Data.Gov">Data.Gov Catalog</a></li>
+<li><a href="https://github.com/GSA/" title="GSA Github">GSA GitHub Repositories</a></li>
+<li><a href="http://www.whitehouse.gov/open," title="White House Open Data Initiative">White House Open Data Initiative</a></li>
+<li><a href="http://project-open-data.github.io/," title="Project Open Data">Project Open Data</a></li>
+<li><a href="https://groups.google.com/forum/?fromgroups#!forum/us-government-apis">US Government APIs Google Group</a></li>
+</ul>
+
+<hr />
+
+
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div class="g-comments"
+        data-href="http://farrelley.com/http://farrelley.com/2013/07/01/apis-in-the-federal-government"
+        data-width="642"
+        data-first_party_property="BLOGGER"
+        data-view_type="FILTERED_POSTMOD">
+    </div>
+
+                  <hr>
+      
+      <div class="footer">
+        <div class="row-fluid marketing">
+          <div class="span12">
+            <ul class="linklist pull-right">
+              <li><a href="http://farrelley.com/">Home</a> <span class="divider">/</span></li>
+              <li><a href="http://farrelley.com/about">About</a> <span class="divider">/</span></li>
+              <li><a href="http://farrelley.com/contact">Contact</a> <span class="divider">/</span></li>
+              <li><a href="http://farrelley.com/blog">Blog</a> <span class="divider">/</span></li>
+              <li><a href="http://farrelley.com/resume">Resumé</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://farrelley.com/assets/js/jquery.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-transition.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-alert.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-modal.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-dropdown.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-tab.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-tooltip.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-popover.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-button.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-collapse.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-carousel.js"></script>
+    <script src="http://farrelley.com/assets/js/bootstrap-typeahead.js"></script>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-60313-3']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>    </div>
