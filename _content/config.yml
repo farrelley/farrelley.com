@@ -5,6 +5,7 @@ site:
     pretty_urls: true
     posts_fs: hierarchy
     posts_per_page: 5
+    root: http://farrelley.com
 smartypants:
     enable: true
 social_media:
